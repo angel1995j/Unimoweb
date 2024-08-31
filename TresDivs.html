@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es"> <!-- Esta etiqueta se utiliza para aperturar todos los documentos en HTML--> 
+<head> <!-- Con esta etiqueta aperturamos la cabecera, dentro de la cabecera, pondremos el estilo, los títulos y otras cosas globales -->
+	<meta charset="utf-8"> <!-- Esta etiqueta sirve para mostrar la codificación de caracteres nuestra, por ejemplo los acentos-->
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- esta etiqueta nos servirá más adelante y sirve para adaptar nuestro sitio a distintos dispositivos -->
+	<title> Práctica de división de 3 divs</title> <!-- Aquí establecemos el título del sitio -->
+
+	<!-- Utilizamos esta etiqueta para escribir estilo CSS -->
+	<style type="text/css"> 
+
+		.contenedorDivs {
+			display: flex; /* Activamos flexbox para alinear los divs hijos */
+			height: 200px; /* Definimos la altura del contenedor */
+		}
+
+		.PrimerDiv { /* Estilo para el primer div */
+            background-color: black; /* Color de fondo negro */
+            width: 50%;
+        }
+
+        #SegundoDiv { /* Estilo para el segundo div */
+            background-color: red; /* Color de fondo rojo */
+            width: 50%;
+        }
+
+        #TercerDiv { /* Estilo para el tercr div */
+            background-color: yellow; /* Color de fondo rojo */
+            width: 50%;
+        }
+	</style>
+
+</head> <!-- Aquí cerramos la cabecera, ya que no la utilizaremos más -->
+<body>  <!-- Aquí aperturamos el body dentro del cual vamos a colocar todo nuestro contenido --> 
+
+<div class="contenedorDivs">
+	<div class="PrimerDiv"></div>
+	<div id="SegundoDiv"></div>
+	<div id="TercerDiv"></div>
+</div>
+
+</body> <!-- Cerramos el body -->
+</html> <!-- Cerramos el html -->
