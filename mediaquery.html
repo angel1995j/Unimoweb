@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Media Query con divs diferentes</title>
+    <style>
+        /* Por defecto (escritorio), muestra el div rojo */
+        .caja-escritorio {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+        .caja-movil {
+            display: none; /*ESTA INSTRUCCIÓN OCULTA LO QUE SEA*/
+        }
+
+        /* Media Query para móviles (max-width: 600px) */
+        @media (max-width: 600px) {
+            .caja-escritorio {
+                display: none; /* Oculta el div rojo en móvil */
+            }
+            .caja-movil {
+                display: block; /* Muestra el div verde en móvil */
+                 width: 200px;
+                height: 200px;
+                background-color: green;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="caja-escritorio"></div> <!-- Se verá en escritorio -->
+    <div class="caja-movil"></div>      <!-- Se verá en móvil -->
+</body>
+</html>
