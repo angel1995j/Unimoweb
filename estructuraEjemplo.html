@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Completa con Lorem Ipsum</title>
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: 'Arial', sans-serif; /* Fuente principal */
+            background-color: #f4f4f4; /* Color de fondo */
+            margin: 0;
+            padding: 0;
+            color: #333; /* Color de texto principal */
+        }
+
+        /* Contenedor principal */
+        .contenedor-principal {
+            width: 100%; /* Ocupar el ancho completo */
+            margin: 0 auto; /* Centrar el contenido */
+            padding: 20px;
+            background-color: #fff; /* Fondo blanco */
+        }
+
+        /* Título principal */
+        .titulo-principal {
+            text-align: center; /* Centrar el texto */
+            color: #444; /* Color del título */
+            font-size: 2.5em; /* Tamaño de fuente */
+            margin-bottom: 20px; /* Espacio inferior */
+            font-family: 'Georgia', serif; /* Cambiar fuente */
+        }
+
+        /* Párrafos */
+        .parrafo {
+            line-height: 1.6; /* Espaciado entre líneas */
+            color: #666; /* Color del texto */
+            margin-bottom: 20px; /* Espacio inferior */
+            font-size: 1.1em; /* Tamaño de fuente */
+        }
+
+        /* Contenedor de imágenes con flexbox */
+        .contenedor-imagenes {
+            display: flex; /* Usar flexbox */
+            justify-content: space-between; /* Espacio entre imágenes */
+            margin-bottom: 20px; /* Espacio inferior */
+        }
+
+        /* Estilos para las imágenes */
+        .imagen {
+            width: 30%; /* Ancho de cada imagen */
+            border-radius: 8px; /* Bordes redondeados */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+        }
+
+        /* Sección con borde */
+        .seccion-con-borde {
+            border: 2px solid #333; /* Borde sólido */
+            padding: 15px; /* Espaciado interno */
+            border-radius: 8px; /* Bordes redondeados */
+            margin-bottom: 20px; /* Espacio inferior */
+        }
+
+        /* Título de la sección */
+        .titulo-seccion {
+            color: #333; /* Color del título */
+            font-size: 1.8em; /* Tamaño de fuente */
+            margin-bottom: 10px; /* Espacio inferior */
+            font-family: 'Verdana', sans-serif; /* Cambiar fuente */
+        }
+
+        /* Iframe de YouTube */
+        .video-container {
+            text-align: center; /* Centrar el video */
+            margin-bottom: 20px; /* Espacio inferior */
+        }
+
+        .video-container iframe {
+            width: 100%; /* Ancho completo */
+            max-width: 800px; /* Ancho máximo */
+            height: 400px; /* Altura fija */
+            border: none; /* Quitar borde */
+            border-radius: 8px; /* Bordes redondeados */
+        }
+
+        /* Botón simple */
+        .boton {
+            display: inline-block; /* Hacer que el botón sea inline */
+            padding: 10px 20px; /* Espaciado interno */
+            background-color: #333; /* Fondo oscuro */
+            color: #fff; /* Texto blanco */
+            text-decoration: none; /* Quitar subrayado */
+            border-radius: 5px; /* Bordes redondeados */
+            transition: background-color 0.3s; /* Transición suave */
+            font-family: 'Arial', sans-serif; /* Fuente del botón */
+        }
+
+        /* Efecto hover para el botón */
+        .boton:hover {
+            background-color: #555; /* Cambiar color al pasar el mouse */
+        }
+
+        /* Pie de página */
+        .pie-de-pagina {
+            text-align: center; /* Centrar el texto */
+            padding: 20px; /* Espaciado interno */
+            background-color: #333; /* Fondo oscuro */
+            color: #fff; /* Texto blanco */
+            margin-top: 20px; /* Espacio superior */
+            font-family: 'Georgia', serif; /* Cambiar fuente */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Contenedor principal -->
+    <div class="contenedor-principal">
+        <!-- Título principal -->
+        <h1 class="titulo-principal">Página Completa con Lorem Ipsum</h1>
+
+        <!-- Párrafo de introducción -->
+        <p class="parrafo">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tincidunt arcu vel libero tincidunt, nec tincidunt nisi tincidunt.
+        </p>
+
+        <!-- Contenedor de imágenes con flexbox -->
+        <div class="contenedor-imagenes">
+            <img class="imagen" src="https://picsum.photos/400/300" alt="Imagen 1">
+            <img class="imagen" src="https://picsum.photos/400/300" alt="Imagen 2">
+            <img class="imagen" src="https://picsum.photos/400/300" alt="Imagen 3">
+        </div>
+
+        <!-- Sección con borde -->
+        <div class="seccion-con-borde">
+            <h2 class="titulo-seccion">Sección con Borde</h2>
+            <p class="parrafo">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+        </div>
+
+        <!-- Sección con video de YouTube -->
+        <div class="video-container">
+            <h2 class="titulo-seccion">Video de YouTube</h2>
+            <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" allowfullscreen></iframe>
+        </div>
+
+        <!-- Sección adicional 1 -->
+        <div>
+            <h2 class="titulo-seccion">Sección Adicional 1</h2>
+            <p class="parrafo">
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+            <a href="#" class="boton">Leer más</a> <!-- Botón -->
+        </div>
+
+        <!-- Sección adicional 2 -->
+        <div>
+            <h2 class="titulo-seccion">Sección Adicional 2</h2>
+            <p class="parrafo">
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+        </div>
+
+        <!-- Pie de página -->
+        <footer class="pie-de-pagina">
+            <p>&copy; 2023 Página Completa. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
